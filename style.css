@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 100vw;
+  color: #fef9e6;
+  background-color: #0b1320;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  padding-left: 70px;
+  color: #bebaac;
+  font-size: 25px;
+  padding-right: 70px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #fef9e6;
+  text-decoration: underline;
+}
+
+#homeId {
+  color: #fef9e6;
+  text-decoration: underline;
+}
+
+main {
+  width: 100vw;
+}
+
+.MainContainer {
+  /* height: 100vh; */
+  /* background-color: #e4ddc5; */
+  background-color: #fff6d9;
+  color: #394d5f;
+  width: 100vw;
+}
+
+.HeadingInfo h1 {
+  color: #d90000;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+}
+
+.ImageAndInfo {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 22px;
+  color: #0b1320;
+}
+
+.firstImage {
+  padding: 20px;
+  align-content: center;
+}
+
+#homePgImg {
+  height: 500px;
+}
+
+.TitleInfo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.IFFTitle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  color: #0a075e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef9e6;
+}
+
+.IFF {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fef9e6;
+}
+
+.IFFImage {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.IFFInfo {
+  color: #0b1320;
+  font-size: 20px;
+  padding: 20px;
+  width: 50vw;
+}
+
+.IFFInfo h2 {
+  /* display: flex;
+    justify-content: center; */
+  margin-bottom: 5px;
+}
+
+.IFFInfo ul {
+  list-style-position: inside;
+}
+
+.freedom-fighters-img {
+  height: 300px;
+}
+
+@media (max-width: 1200px) {
+  #homePgImg {
+    height: 400px;
+    align-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #homePgImg {
+    height: 300px;
+    align-content: center;
+  }
+
+  .freedom-fighters-img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 850px) {
+  .ImageAndInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #homePgImg {
+    height: 380px;
+  }
+
+  .odd-width-class{
+    width: 235px;
+  }
+
+  .even-width-class{
+    width: 375px;
+  }
+}
+
+@media (max-width: 768px) {
+    .IFF{
+        flex-direction: column;
+    }
+
+    .IFFInfo {
+        width: 90vw;
+    }
+}
+
+
+@media (max-width: 630px) {
+    #homePgImg {
+        height: 300px;
+        width: 100%;
+    }
+
+    .IFFTitle {
+        text-align: center;
+    }
+
+    .HeadingInfo h1 {
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .even-width-class{
+        width: 300px;
+      }
+
+      header nav ul li a {
+        padding-left: 15%;
+      }
+}
